@@ -1,0 +1,1 @@
+jar 'edu.stanford.nlp:stanford-corenlp', '3.7.0'

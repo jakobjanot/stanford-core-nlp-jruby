@@ -1,0 +1,62 @@
+PATH
+  remote: .
+  specs:
+    stanford_core_nlp (0.1.0-java)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    coderay (1.1.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    ffi (1.9.17-java)
+    ice_nine (0.11.2)
+    jar-dependencies (0.3.10)
+    jbundler (0.9.3)
+      bundler (~> 1.5)
+      jar-dependencies (~> 0.3)
+      maven-tools (~> 1.1)
+      ruby-maven (~> 3.3, >= 3.3.8)
+    maven-tools (1.1.6)
+      virtus (~> 1.0)
+    method_source (0.8.2)
+    minitest (5.10.1)
+    pry (0.10.4-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    rake (10.5.0)
+    ruby-maven (3.3.12)
+      ruby-maven-libs (~> 3.3.9)
+    ruby-maven-libs (3.3.9)
+    slop (3.6.0)
+    spoon (0.0.6)
+      ffi
+    thread_safe (0.3.5-java)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  bundler (~> 1.13)
+  jbundler (~> 0.9)
+  minitest (~> 5.0)
+  pry
+  rake (~> 10.0)
+  stanford_core_nlp!
+
+BUNDLED WITH
+   1.13.7
